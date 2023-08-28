@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
       sortedArray.push(strangeArray[i])
     } 
   }
-  sortedArray.sort(function compare(a, b){
+  sortedArray.sort((a, b)=>{
     if((a.toUpperCase()) < (b.toUpperCase())){
       return -1
     }else{
